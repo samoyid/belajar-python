@@ -1,0 +1,13 @@
+DATA = int(input("BERAPA TINGGI BADAN ANDA: "))
+
+TINGGI_BADAN = ""
+KATEGORI = 0
+
+if  DATA <160:
+    TINGGI_BADAN = int(160)
+    KATEGORI = "IMUT"
+elif  DATA >=160 & DATA <170:
+    TINGGI_BADAN = int(160 - 170)
+    KATEGORI = "STANDART"
+    
+print("--- TERIMA KASIH TELAH MENCOBA JASA KAMI ---")

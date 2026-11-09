@@ -1,0 +1,1 @@
+Luas PERSEGI = 49.0000
